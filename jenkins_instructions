@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout my project') {
            steps {
                cleanWs()
-               git credentialsId: '58270b45-cf28-459f-abe9-0d262896f67d', url: 'https://github.com/abinashp-github/Devops_Go_file.git'
+               git credentialsId: '58270b45-cf28-459f-abe9-0d262896f67d', url: 'https://github.com/Spartan03168/devops_exam/blob/main/jenkins_instructions'
             }
         }
         
